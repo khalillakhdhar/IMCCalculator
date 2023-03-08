@@ -1,6 +1,7 @@
 package imc;
 
 import mathematique.Divisiblite;
+import production.Produit;
 
 public class Test {
 
@@ -14,9 +15,10 @@ public class Test {
 		String userEval=p2.evaluation();
 		*/
 		//System.out.println(p2.toString());
-		Divisiblite divisiblite=new Divisiblite(346);
-		divisiblite.diviseTrois();
-		
+		//Divisiblite divisiblite=new Divisiblite(346);
+		//divisiblite.diviseTrois();
+		Produit produit=new Produit(600, 300);
+		System.out.println(produit.toString());
 	}
 
 }
