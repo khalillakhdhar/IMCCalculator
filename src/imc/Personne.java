@@ -54,5 +54,10 @@ else
 	
 
 }
+@Override
+public String toString() {
+	return "Personne [nomComplet=" + nomComplet + ", poids=" + poids + ", taille=" + taille + ", indice=" + indice()
+			+ ", evaluation=" + evaluation() + "]";
+}
 
 }

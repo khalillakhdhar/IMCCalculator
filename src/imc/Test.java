@@ -6,8 +6,13 @@ public class Test {
 		// TODO Auto-generated method stub
 		Personne p1=new Personne();
 		p1.setNomComplet("Ali");
-		System.out.println(p1.getNomComplet());
-		Personne p2=new Personne("User ", 80, 1.90);
+		//System.out.println(p1.getNomComplet());
+		Personne p2=new Personne("User ", 110, 1.90);
+		/*long imcVal=p2.indice();
+		String userEval=p2.evaluation();
+		*/
+		System.out.println(p2.toString());
+		
 	}
 
 }
