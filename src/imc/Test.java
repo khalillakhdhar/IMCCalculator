@@ -1,5 +1,7 @@
 package imc;
 
+import mathematique.Divisiblite;
+
 public class Test {
 
 	public static void main(String[] args) {
@@ -11,7 +13,9 @@ public class Test {
 		/*long imcVal=p2.indice();
 		String userEval=p2.evaluation();
 		*/
-		System.out.println(p2.toString());
+		//System.out.println(p2.toString());
+		Divisiblite divisiblite=new Divisiblite(346);
+		divisiblite.diviseTrois();
 		
 	}
 

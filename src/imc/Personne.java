@@ -2,6 +2,7 @@ package imc;
 
 public class Personne {
 	//boilerplate code
+	// x % y=> le reste de division de x et y
 private String nomComplet;
 private double poids,taille;
 
